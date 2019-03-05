@@ -1,0 +1,52 @@
+/* ---------------------------------------------------------
+   CSS - Template
+
+   Add your prefered Styles here
+   ---------------------------------------------------------*/
+
+
+    /* Optional: Import normalisation:
+    @import 'normalize.css'; */
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ddd;
+      line-height: 1.8em;
+      color: #121;
+      font-size: 90%;
+    }
+
+    #wrap {
+      margin: 0 auto;
+      width: 60em;
+     
+    }
+
+    h2 {
+      padding-left: 0;
+    }
+
+    h2, p, img {
+      padding: 0 1.5em;
+      text-align: left;
+    }
+
+    .teaser {
+      padding: 0;
+    }
+
+    img, article {
+      margin: 0 auto;
+      width : 95%;
+    }
+
+
+    /* Default link styling */
+    a:link { color:#0271fb; }
+    a:visited { color:#bd02fb; }
+    a:hover, a:focus { color:#000; }
+    a:active { color:#fb0e02; }
+    
+    
+    
